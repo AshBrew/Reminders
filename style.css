@@ -1,0 +1,39 @@
+body {
+    font-family: "IM Fell English", serif;
+    justify-content: center;
+    align-items: center;
+    inline-size: auto;
+    overflow: hidden;
+    margin: auto;
+    background-color: #ede5d3;
+}
+
+.quote-widget {
+    text-align: center;
+    border: 5px;
+    border-color: #3c5c1e;
+}
+
+blockquote {
+    font-style: regular;
+    color: #3c5c1e;
+}
+
+#quote-author {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3c5c1e;
+}
+
+#new-quote-btn {
+    background-color: #e0d7c1;
+    color: #3c5c1e;
+    border: 2px #3c5c1e;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#new-quote-btn:hover {
+    background-color: #d6caab;
+}
